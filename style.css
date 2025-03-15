@@ -1605,3 +1605,56 @@ footer{
 .model__open .model__about{
     transform: translateX(0%);
 }
+
+/* small phones */
+
+@media(max-width:480px){
+    .title{
+        font-size: 52px;
+    }
+    .header__para{
+        font-size: 18px;
+    }
+    .nav__link:first-child{
+        display: none;
+    }
+    .project__decreption--para{
+        display: none;
+    }
+    .project__desreption{
+        left: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .project__descreption--sub-title{
+        margin-bottom: 8px;
+    }
+}.model__half{
+    padding: 40px;
+
+}
+
+/* small phones, tablets, large smart phones */
+
+@media (max-width: 768px){
+    .title{
+        font-size: 80px;
+    }
+    .header__para{
+        font-size: 20px;
+    }
+    .model{
+        top: 0;
+        left: 0;
+        height: auto;
+        transform: none;
+        width: 100%;
+        flex-direction: column-reverse;
+        border-radius: 0;
+    }
+    .model__half{
+        width: 100%;
+
+    }
+}
